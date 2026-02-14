@@ -117,7 +117,7 @@ export default function ValentinePage() {
 
           {/* Opening flower (visible until it fades) */}
           {flowerPhase !== 'gone' && (
-            <OpeningFlower phase={flowerPhase === 'gone' ? 'fading' : flowerPhase} />
+            <OpeningFlower phase={flowerPhase} />
           )}
 
           {/* Butterfly (emerges from flower, grows, opens wings) */}

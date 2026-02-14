@@ -1,7 +1,7 @@
 import { motion, type Variants } from 'framer-motion';
 
 interface OpeningFlowerProps {
-  phase: 'glowing' | 'opening' | 'opened' | 'fading';
+  phase: 'glowing' | 'opening' | 'opened' | 'fading' | 'gone';
 }
 
 const containerVariants: Variants = {
